@@ -1,0 +1,103 @@
+body{
+    margin: 0;
+}
+
+header{
+    background-color:#a3cef1;
+    display: flex;
+    height: 100px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 60px;
+}
+
+header h1{
+    color: black;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+li{
+    margin-right: 40px;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+}
+
+main{
+    background-color:#e7ecef;
+    padding: 30px;
+}
+
+.contenedor_limite{
+    max-width: 80%;
+    margin: 0 auto;
+    box-shadow: 0 0 20px black;
+    border-radius: 5px; 
+}
+
+.contenedor-padre{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; 
+}
+.tarjeta{
+    box-shadow: 0 0 20px #b3dee2;
+    border-radius: 8px;
+    width: 200px;
+    background-color: #b3dee2;
+    text-align: center;
+    margin: 15px;
+    padding: 5px;
+}
+
+.tarjeta p{
+    color: black; 
+    margin: 0px 0px 15px 0px;
+}
+
+.tarjeta h3{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.tarjeta img{ 
+    width: 100%; 
+    height: auto;
+    margin-top: 15px;
+}
+
+button{
+    background-color: #a3cef1; 
+    color: gray; 
+    border: none; 
+    border-radius: 8px; 
+    padding: 10px 20px; 
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.boton:hover{
+    color: black;
+    border: 1px solid black;
+}
+footer{
+    background-color: #a3cef1;
+    text-align: center;
+    height: auto; 
+    padding:10px;
+    
+}
+
+footer a, footer i {
+    color: black;
+    text-decoration: none;
+    margin: 0 5px;
+}
